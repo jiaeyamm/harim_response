@@ -1,0 +1,469 @@
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    
+    header {
+        height: 170px;
+    }
+
+    .h_top {
+        width: 100%;
+    }
+    .h_top > h1 {
+        position: absolute;
+        left: 10px;
+        top: 30px;
+        width: 190px;
+    }
+
+    header fieldset {
+        position: absolute;
+        right: 10px;
+        top:60px;
+    }
+    
+    .h_top > h1 > img {
+        width: 100%;
+    }
+
+    .h_top > .lnb {
+        position: absolute;
+        right: 0px;
+        top: 20px;
+    }
+    
+    .lnb > ul {
+        display: flex;
+        width: 300px;
+        justify-content: space-around;
+    }
+
+    .lnb > ul a {
+        font-size: 13px;
+        color: #fff;
+    }
+
+    .h_top > .lnb {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+.h_bottom .gnb > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.h_bottom .gnb {
+    width: 90%;
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+}
+
+
+.h_bottom .gnb > ul > li {
+    text-align: center;
+    line-height: 180%;
+    padding: 0px 3.3%;
+    position: relative;
+}
+
+.h_bottom .gnb > ul > li > a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.h_bottom .gnb > ul > li > a::after {
+    width: 1px; height: 14px;
+    background: #fff;
+    content: "";
+    display: block;
+    position: relative;
+    top: -19px;
+    left: 66px;}
+
+    .h_bottom .gnb > ul > li:nth-child(2) > a::after {
+        left: 80px;
+    }
+    
+    .h_bottom .gnb > ul > li:nth-child(3) > a::after {
+        left: 60px;
+    }
+    
+    .h_bottom .gnb > ul > li:nth-child(4) > a::after {
+        left: 50px;
+    }
+    
+    .h_bottom .gnb > ul > li:nth-child(5) > a::after {
+        left: 70px;
+    }
+    
+    .h_bottom .gnb > ul > li:nth-child(6) > a::after {
+        left: 100px;
+    }
+    
+    .h_bottom .gnb > ul > li:last-child > a::after {
+        display: none;
+    }
+
+
+    label.total_btn {
+        display: block;
+        font-size: 2rem;
+        color: #fff;
+        position: absolute;
+        bottom: 8px;
+        right: 20px;
+        padding: 5px;
+
+    }
+
+/*서브 메뉴 서식*/
+.sub {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    background: #fff;
+    height: 240px;
+    width: 100%;
+    padding: 15px 0px;
+    top: 38px;
+    background: rgba(255, 255, 255,.9);
+    display: none;
+
+}
+
+
+.sub > li {
+    line-height: 260%;
+}
+
+.gnb > ul > li:first-child .sub {
+    padding-left: 300px; left: -300px;
+}
+
+.gnb > ul > li:nth-child(6) .sub {
+    padding-right: 190px; right: 0px;
+}
+
+@media screen and (min-width: 1000px) and (max-width:1024px) {
+    .gnb > ul > li:nth-child(6) .sub {
+        padding-right: 230px; right: 0px;
+    }
+
+    .free_ex article > img{
+        float: left;
+        padding: 80px 0px 0px 9% !important;
+        width: 400px;
+    }
+    
+    .product li {
+        width: 43% !important;
+        text-align: center;
+        
+    }
+
+    .product li img {
+        width: 270px !important;
+    }
+
+    .s_img {
+        padding: 120px 9% 0px 0px  !important;
+    }
+
+    .story_left {
+        padding-left: 16% !important;
+    }
+
+}
+    
+
+.sub > li > a {
+    font-size: 0.8rem;
+    text-decoration: none;}
+    
+#toggle:checked + header .sub { 
+    display: block;
+}
+
+/*메인 서식*/
+main {}
+main > .slide img {
+height: 600px;
+object-fit: cover;}
+
+.free_ex {
+    background-color: #E32929;
+    height: 530px;
+}
+
+.free_ex article > h2 {
+    display: none;
+}
+
+.free_ex article > img{
+    float: left;
+    padding: 80px 0px 0px 3%;
+    width: 340px;
+}
+
+.free_ex_right {
+    text-align: center;   
+    padding-top: 80px;
+    color: #fff;
+}
+
+.free_ex_right > h2 {
+    font-size: 34px;
+    font-weight: 200;
+    padding-bottom: 16px;
+}
+
+.free_ex_right > h2 > img {
+    padding-bottom: 10px;
+    width: 60px;
+}
+
+.free_ex_right p {
+    padding: 50px 0px 90px 0px;
+    font-size: 1.125rem;
+    line-height: 180%;
+}
+
+.button {
+    font-size: 1rem;
+    background: #fff;
+    padding: 6px 30px;
+    border: 1px solid #ccc;
+    transition: 0.5s;
+}
+
+/* 쇼핑하기 */
+
+.shop {
+    padding-bottom: 50px;
+}
+
+
+.shop > h2 {
+    text-align: center;
+    font-size: 36px;
+    padding: 40px 0px 60px 0px;
+    font-weight: 200;
+}
+
+.shop > h2 > img {
+    width: 40px;
+    padding-right: 10px;
+    transform: translateY(8px);
+}
+
+.p_center {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.product{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product > li {
+    width: 50%;
+    text-align: center;
+    
+}
+
+.product > li img {
+    width: 220px;
+    float: left;
+}
+
+.info {
+    width: 160px;
+    float: right;
+    font-size: 1rem;
+}
+
+.inf0 > h3 {
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.info > p {line-height: 230%;}
+
+.info > .price {
+    display: inline-block;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #f00;
+}
+
+.info > p:last-of-type {
+    padding-top: 20px;
+}
+
+/*펫 스토리 서식*/
+.story {
+    width: 100%;
+    background: #f0f0f0;
+    height: 620px;
+}
+
+.story > h2 {
+    display: none;
+}
+
+.story > article > h2 {
+    font-size: 2.25rem;
+    color: #333;
+    font-weight: 200;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.story_left {
+    float: left;
+    text-align: center;
+    padding-left: 60px;
+}
+
+.story_left > h2 {
+    font-size: 36px;
+    color: #333;
+    font-weight: 200; 
+    padding-top: 140px;
+    padding-bottom: 60px;
+}
+
+.story_left p {
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 90px;
+}
+
+.story_left > h2 img {
+    width: 40px;
+    padding-right: 10px;
+}
+
+.s_img {
+    width: 360px;
+    float: right;
+    padding: 100px 20px 0px 0px;
+}
+
+.instar {
+    padding: 50px 0px;
+}
+
+.instar > h2 {
+    text-align: center;
+    font-size: 1.75rem;
+    color: #333;
+    font-weight: 300;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.id_name {
+    display: block;
+    text-transform: lowercase;
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+
+h2 img {
+    width: 40px;
+    transform: translateY(10px);
+}
+
+section .gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    box-sizing: border-box;
+    grid-template-rows: repeat(3, 200px);
+}
+.gallery li {
+    overflow: hidden;
+}
+
+.gallery li:nth-child(9) ~ li {
+    display: none;
+}
+.gallery li img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/*푸터 영역 정보 서식*/
+    .f_info, .f_nav, address {
+        width: 100%;
+    }
+
+    .f_lnb {
+        width: 32%;
+    }
+    .f_lnb li {
+        margin: 0px 1%;
+        font-size: 0.8rem;
+    }
+
+.f_nav dl {
+    line-height: 60px;
+    font-size: 0.875rem;
+    color: #fff;
+    width: 68%;
+}
+
+footer dl {
+    width: 80%;
+}
+
+.f_nav dl dd > span {
+    padding-left: 10px; 
+}
+
+.f_info {
+    width: 100%;
+}
+
+.f_info > dl dt {
+    display: none;
+}
+
+.f_info dd {
+    font-size: 1.125rem;
+    color: rgb(233, 232, 232);
+    line-height: 230%;
+}
+
+.number {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.f_info .number + p {
+    font-size: 1rem;
+}
+
+.family_site, .sns {
+    position: absolute;
+    right: 5%;
+}
+
+.sns {
+    top:60px;
+}
+
+address {
+    padding: 0% 3% 0% 3%;
+}
+}
+
+
